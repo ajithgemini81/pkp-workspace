@@ -141,12 +141,13 @@ function Build-FlatPackage
     $Files = Get-FlatFileList `
         -RepositoryFolder $RepositoryFolder
 
-
+    Write-Host "Files Count: $($Files.Count)"
 
     $Mappings = Resolve-FlatFilenameCollisions `
-        -Files $Files
+        -Files $Files `
+        -RepositoryFolder $RepositoryFolder
 
-
+    Write-Host "Mappings Count: $($Mappings.Count)"
 
     Copy-FlatFiles `
         -Mappings $Mappings `
@@ -207,9 +208,11 @@ function Resolve-FlatFilenameCollisions
     param
     (
         [Parameter(Mandatory)]
-        [array]$Files
-    )
+        [array]$Files,
 
+        [Parameter(Mandatory)]
+        [string]$RepositoryFolder
+    )
 
     $Mappings = @()
 
@@ -253,10 +256,10 @@ function Resolve-FlatFilenameCollisions
             OriginalPath = $File.FullName
 
             RepositoryPath = (
-                Get-RelativePath `
-                    -BasePath $File.Directory.Parent.FullName `
-                    -FullPath $File.FullName
-            )
+                                Get-RelativePath `
+                                    -BasePath $RepositoryFolder `
+                                    -FullPath $File.FullName
+                            ).Replace('\','/')
 
             OriginalName = $File.Name
 
@@ -418,7 +421,7 @@ function Write-FlatIndex
 
     $Lines += ""
 
-    $Lines += "| Flat Filename | Original Path |"
+    $Lines += "| Flat Filename | Repository Path |"
 
     $Lines += "|---|---|"
 
@@ -427,7 +430,7 @@ function Write-FlatIndex
     foreach ($Mapping in $Mappings)
     {
         $Lines +=
-            "| $($Mapping.FlatName) | $($Mapping.OriginalPath) |"
+            "| $($Mapping.FlatName) | $($Mapping.RepositoryPath) |"
     }
 
 

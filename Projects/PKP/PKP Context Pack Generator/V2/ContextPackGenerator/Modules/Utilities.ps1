@@ -64,7 +64,6 @@ function Get-RelativePath
         [string]$FullPath
     )
 
-
     $BaseUri = New-Object System.Uri(
         ($BasePath.TrimEnd('\') + '\')
     )
@@ -73,11 +72,14 @@ function Get-RelativePath
         $FullPath
     )
 
-
     $RelativePath = $BaseUri.MakeRelativeUri(
         $FullUri
     ).ToString()
 
+    # Decode URI-encoded characters (e.g. %20 -> space)
+    $RelativePath = [System.Uri]::UnescapeDataString(
+        $RelativePath
+    )
 
     return $RelativePath.Replace(
         '/',
