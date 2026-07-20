@@ -153,7 +153,7 @@ function Get-ManifestEntries
     return $Entries
 }
 
-function Get-OutputFolder
+function Get-RepositoryOutputFolder
 {
     param
     (
@@ -162,7 +162,7 @@ function Get-OutputFolder
 
     return Join-Path `
         $PKPRoot `
-        "Infrastructure\AI\ContextPacks\Output"
+        "Infrastructure\AI\ContextPacks\Output\Repository"
 }
 
 
@@ -229,7 +229,7 @@ function Build-ContextPack
     -ManifestFile $ManifestFile `
     -PKPRoot $PKPRoot
 
-    $OutputFolder = Get-OutputFolder `
+    $OutputFolder = Get-RepositoryOutputFolder `
     -PKPRoot $PKPRoot
 
     $BuildFolder = New-BuildFolder `
@@ -241,6 +241,9 @@ function Build-ContextPack
         -PKPRoot $PKPRoot `
         -BuildFolder $BuildFolder
 
+    $StartHereFile = Write-StartHere `
+    -BuildFolder $BuildFolder
+
     $ReportFile = Write-BuildReport `
     -BuildFolder $BuildFolder `
     -ContextPackName $ManifestFile.BaseName `
@@ -251,7 +254,8 @@ function Build-ContextPack
         ManifestEntries = $ManifestPipeline.ManifestEntries
         Validation = $ManifestPipeline.Validation
         BuildFolder = $BuildFolder
-        ReportFile = $ReportFile
+        StartHere = $StartHereFile
+        ReportFile = $ReportFile        
     }
 }
 
@@ -287,6 +291,49 @@ function Invoke-ManifestPipeline
     }
 }
 
+
+# ============================================================
+# Transport Functions
+# ============================================================
+
+function Build-RepositoryTransport
+{
+    param
+    (
+        [PSCustomObject]$ContextPack
+    )
+
+    Write-Host ""
+    Write-Host "Building Repository Transport..."
+}
+
+function Build-FlatTransport
+{
+    param
+    (
+        [PSCustomObject]$ContextPack
+    )
+
+    Write-Host ""
+    Write-Host "Building Flat Transport..."
+}
+
+# ============================================================
+# Flat Package Functions
+# ============================================================
+
+function Build-FlatPackage
+{
+    param
+    (
+        [string]$RepositoryFolder,
+
+        [string]$FlatFolder
+    )
+
+    Write-Host ""
+    Write-Host "Building Flat Package..."
+}
 
 # ============================================================
 # Processing Functions
@@ -480,6 +527,48 @@ function Copy-ManifestFiles
 
         Write-Host "[COPY] $Entry"
     }
+}
+
+# ============================================================
+# Generated File Functions
+# ============================================================
+
+function Write-StartHere
+{
+    param
+    (
+        [string]$BuildFolder
+    )
+
+    $File = Join-Path $BuildFolder "START-HERE.md"
+
+    $Lines = @()
+
+    $Lines += "# START HERE"
+    $Lines += ""
+    $Lines += "## Purpose"
+    $Lines += ""
+    $Lines += "This Context Pack initializes an AI assistant with the minimum knowledge required to continue development of the Personal Knowledge Platform (PKP)."
+    $Lines += ""
+    $Lines += "---"
+    $Lines += ""
+    $Lines += "## Reading Order"
+    $Lines += ""
+    $Lines += "1. README.md"
+    $Lines += "2. Projects/PKP/PKP-001 - AI Collaboration Guide.md"
+    $Lines += "3. Projects/PKP/PKP-999 - Current Project Status.md"
+    $Lines += "4. Architecture documents"
+    $Lines += "5. Standards"
+    $Lines += ""
+    $Lines += "---"
+    $Lines += ""
+    $Lines += "If additional context is required, request the appropriate Context Pack."
+
+    Set-Content `
+        -Path $File `
+        -Value $Lines
+
+    return $File
 }
 
 # ============================================================
