@@ -1,4 +1,4 @@
-# ARC-000 — PKP Architecture Overview
+# ARC-000 - PKP Architecture Overview
 
 ## Status
 
@@ -236,5 +236,5 @@ Future improvements must preserve the architectural principles defined in this d
 ## Related Documents
 
 - [[README]]
-- [[PKP-000 — Project Charter]]
-- [[STD-000 — AI Collaboration Standard]]
+- [[PKP-000 - Project Charter]]
+- [[STD-000 - AI Collaboration Standard]]

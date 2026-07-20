@@ -1,4 +1,4 @@
-# STD-002 — Markdown Writing Standard
+# STD-002 - Markdown Writing Standard
 
 ## Status
 
@@ -334,7 +334,7 @@ Examples:
 
 [[Knowledge Architecture]]
 
-[[PKP-000 — Project Charter]]
+[[PKP-000 - Project Charter]]
 
 Avoid linking temporary Inbox documents unless necessary.
 
@@ -392,7 +392,7 @@ Consistency is preferred over perfection.
 # Related Documents
 
 - [[README]]
-- [[ARC-002 — Repository Architecture]]
-- [[STD-001 — Naming Standard]]
-- [[TMP-001 — Knowledge Object]]
-- [[TMP-002 — Resource Processing Checklist]]
+- [[ARC-002 - Repository Architecture]]
+- [[STD-001 - Naming Standard]]
+- [[TMP-001 - Knowledge Object]]
+- [[TMP-002 - Resource Processing Checklist]]

@@ -46,7 +46,7 @@ Developing the ability to perform Deep Work requires intentionally reducing dist
 
 ## Sources
 
-- *Deep Work* — Cal Newport
+- *Deep Work* - Cal Newport
 
 ---
 

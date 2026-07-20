@@ -57,7 +57,7 @@ The PKP follows these principles:
 
 The governing standards for the repository are maintained in:
 
-* `Standards/STD-000 — AI Collaboration Standard.md`
+* `Standards/STD-000 - AI Collaboration Standard.md`
 
 ---
 
@@ -136,7 +136,7 @@ Knowledge is continuously refined rather than duplicated.
 
 # AI Collaboration
 
-AI systems are collaborators—not the source of truth.
+AI systems are collaborators-not the source of truth.
 
 The PKP remains the permanent repository.
 
@@ -161,8 +161,8 @@ The PKP is designed to work with cloud AI services, local AI runtimes, and futur
 Whether you are a human collaborator or an AI assistant, begin in the following order:
 
 1. Read this README.
-2. Read `Standards/STD-000 — AI Collaboration Standard.md`.
-3. Read the Project Charter (`Projects/PKP/PKP-000 — Project Charter.md`).
+2. Read `Standards/STD-000 - AI Collaboration Standard.md`.
+3. Read the Project Charter (`Projects/PKP/PKP-000 - Project Charter.md`).
 4. Review the relevant knowledge domain.
 5. Follow the established workflow and standards before contributing.
 
@@ -215,7 +215,7 @@ New technologies should enhance the platform without compromising the core archi
 
 This repository is intended to remain useful for decades.
 
-Knowledge is owned by the repository—not by any individual software tool or AI platform.
+Knowledge is owned by the repository-not by any individual software tool or AI platform.
 
 The PKP is the permanent system of record.
 

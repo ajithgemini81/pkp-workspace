@@ -52,7 +52,7 @@ Books, articles, videos, research papers, conversations, etc.
 
 Example:
 
-- Deep Work — Cal Newport
+- Deep Work - Cal Newport
 
 ---
 

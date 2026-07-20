@@ -4,3 +4,7 @@
 # OS files
 .DS_Store
 Thumbs.db
+
+# Generated AI Context Packs
+Infrastructure/AI/ContextPacks/Output/*
+!Infrastructure/AI/ContextPacks/Output/.gitkeep

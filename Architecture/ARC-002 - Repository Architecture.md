@@ -1,4 +1,4 @@
-# ARC-002 — Repository Architecture
+# ARC-002 - Repository Architecture
 
 ## Status
 
@@ -351,7 +351,7 @@ Structural changes should preserve the architectural principles defined by the P
 # Related Documents
 
 - [[README]]
-- [[PKP-000 — Project Charter]]
-- [[ARC-000 — PKP Architecture Overview]]
-- [[ARC-001 — Knowledge Architecture]]
-- [[STD-000 — AI Collaboration Standard]]
+- [[PKP-000 - Project Charter]]
+- [[ARC-000 - PKP Architecture Overview]]
+- [[ARC-001 - Knowledge Architecture]]
+- [[STD-000 - AI Collaboration Standard]]

@@ -10,7 +10,7 @@
 
 Attention residue is one of the biggest hidden obstacles to deep, focused work.
 
-Even brief interruptions—checking email, replying to a message, or switching between unrelated tasks—can significantly reduce cognitive performance.
+Even brief interruptions-checking email, replying to a message, or switching between unrelated tasks-can significantly reduce cognitive performance.
 
 Understanding this concept explains why multitasking often feels productive but produces lower-quality work.
 
@@ -114,7 +114,7 @@ Fewer context switches result in deeper concentration.
 
 ### Books
 
-- *Deep Work* — Cal Newport
+- *Deep Work* - Cal Newport
 
 ---
 

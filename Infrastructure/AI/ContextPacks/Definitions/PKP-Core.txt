@@ -1,0 +1,16 @@
+# PKP Core Context Pack
+
+README.md
+
+# Project
+
+Projects/PKP/PKP-000 - Project Charter.md
+Projects/PKP/PKP-001 - AI Collaboration Guide.md
+
+# Architecture
+
+Architecture/ARC-000 - PKP Architecture Overview.md
+
+# Standards
+
+Standards/STD-000 - AI Collaboration Standard.md

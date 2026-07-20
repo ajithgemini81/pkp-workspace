@@ -1,4 +1,4 @@
-# PKP-000 — Project Charter
+# PKP-000 - Project Charter
 
 ## Purpose
 

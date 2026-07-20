@@ -1,4 +1,4 @@
-# STD-001 — Naming Standard
+# STD-001 - Naming Standard
 
 ## Status
 
@@ -130,17 +130,17 @@ Untitled.md
 Architecture documents shall use the format:
 
 ```
-ARC-### — Title.md
+ARC-### - Title.md
 ```
 
 Examples:
 
 ```
-ARC-000 — PKP Architecture Overview.md
+ARC-000 - PKP Architecture Overview.md
 
-ARC-001 — Knowledge Architecture.md
+ARC-001 - Knowledge Architecture.md
 
-ARC-002 — Repository Architecture.md
+ARC-002 - Repository Architecture.md
 ```
 
 Architecture document identifiers are permanent.
@@ -154,17 +154,17 @@ Identifiers shall never be reused.
 Standards shall use:
 
 ```
-STD-### — Title.md
+STD-### - Title.md
 ```
 
 Examples:
 
 ```
-STD-000 — AI Collaboration Standard.md
+STD-000 - AI Collaboration Standard.md
 
-STD-001 — Naming Standard.md
+STD-001 - Naming Standard.md
 
-STD-002 — Markdown Standard.md
+STD-002 - Markdown Standard.md
 ```
 
 ---
@@ -174,15 +174,15 @@ STD-002 — Markdown Standard.md
 Templates shall use:
 
 ```
-TMP-### — Title.md
+TMP-### - Title.md
 ```
 
 Examples:
 
 ```
-TMP-001 — Knowledge Object.md
+TMP-001 - Knowledge Object.md
 
-TMP-002 — Resource Processing Checklist.md
+TMP-002 - Resource Processing Checklist.md
 ```
 
 ---
@@ -192,15 +192,15 @@ TMP-002 — Resource Processing Checklist.md
 Architecture Decision Records shall use:
 
 ```
-ADR-#### — Title.md
+ADR-#### - Title.md
 ```
 
 Examples:
 
 ```
-ADR-0001 — Markdown First.md
+ADR-0001 - Markdown First.md
 
-ADR-0002 — Resources Are Not Knowledge.md
+ADR-0002 - Resources Are Not Knowledge.md
 ```
 
 ADR identifiers are sequential and permanent.
@@ -214,11 +214,11 @@ Each project owns its own namespace.
 Example:
 
 ```
-PKP-000 — Project Charter.md
+PKP-000 - Project Charter.md
 
-SH-000 — Project Charter.md
+SH-000 - Project Charter.md
 
-AI-000 — Project Charter.md
+AI-000 - Project Charter.md
 ```
 
 The project prefix should be concise and unique.
@@ -380,15 +380,15 @@ As the PKP evolves, additional managed document types may be introduced.
 Examples:
 
 ```
-DEC — Decisions
+DEC - Decisions
 
-PAT — Patterns
+PAT - Patterns
 
-REF — Reference Guides
+REF - Reference Guides
 
-EXP — Experiments
+EXP - Experiments
 
-RFC — Requests for Comment
+RFC - Requests for Comment
 ```
 
 New prefixes should be standardized before use.
@@ -408,5 +408,5 @@ Consistency is preferred over immediate perfection.
 # Related Documents
 
 - [[README]]
-- [[ARC-002 — Repository Architecture]]
-- [[STD-000 — AI Collaboration Standard]]
+- [[ARC-002 - Repository Architecture]]
+- [[STD-000 - AI Collaboration Standard]]

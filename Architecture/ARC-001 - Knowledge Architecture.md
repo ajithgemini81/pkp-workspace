@@ -1,4 +1,4 @@
-# ARC-001 — Knowledge Architecture
+# ARC-001 - Knowledge Architecture
 
 ## Status
 
@@ -320,6 +320,6 @@ Future enhancements should preserve the architectural principles defined in this
 # Related Documents
 
 - [[README]]
-- [[PKP-000 — Project Charter]]
-- [[ARC-000 — PKP Architecture Overview]]
-- [[STD-000 — AI Collaboration Standard]]
+- [[PKP-000 - Project Charter]]
+- [[ARC-000 - PKP Architecture Overview]]
+- [[STD-000 - AI Collaboration Standard]]
