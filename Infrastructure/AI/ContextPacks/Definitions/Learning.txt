@@ -1,2 +1,2 @@
-Knowledge\Learning\Attention Residue.md
-Knowledge\Learning\Deep Work.md
+Knowledge\Learning\Deep Work\Attention Residue.md
+Knowledge\Learning\Deep Work\Deep Work.md

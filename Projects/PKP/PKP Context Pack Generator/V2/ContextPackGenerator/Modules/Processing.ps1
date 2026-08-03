@@ -161,20 +161,18 @@ function Build-And-DisplayContextPack
     # ZIP Transport
     # --------------------------------------------------------
 
-    $ZipTransport =
-        Build-ZipTransport `
-            -TransportPackage $FlatTransport `
-            -PKPRoot $PKPRoot
-
-
+    # Zip Transport is deferred - set to $null
+    $ZipTransport = $null
+    # $ZipTransport =
+    #     Build-ZipTransport `
+    #         -TransportPackage $FlatTransport `
+    #         -PKPRoot $PKPRoot
 
     Write-BuildResult `
         -Build $Build `
         -Repository $RepositoryTransport `
         -Flat $FlatTransport `
         -Zip $ZipTransport
-
-
 
     Show-BuildCompleted `
         -ContextPackName $Build.ContextPackName
@@ -236,11 +234,11 @@ function Build-AllContextPacks
                     -PKPRoot $PKPRoot
 
 
-
-            $Zip =
-                Build-ZipTransport `
-                    -TransportPackage $Flat `
-                    -PKPRoot $PKPRoot
+             $Zip = $null
+#            $Zip =
+#               Build-ZipTransport `
+#                    -TransportPackage $Flat `
+#                   -PKPRoot $PKPRoot
 
 
 
