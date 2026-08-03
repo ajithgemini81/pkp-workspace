@@ -1,2 +1,3 @@
+Infrastructure\Prompts\PRM-004 - NotebookLM - Reading Passage Explainer.md
 Knowledge\Learning\Deep Work\Attention Residue.md
 Knowledge\Learning\Deep Work\Deep Work.md
