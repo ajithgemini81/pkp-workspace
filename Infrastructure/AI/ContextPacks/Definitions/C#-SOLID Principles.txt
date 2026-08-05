@@ -1,0 +1,2 @@
+Infrastructure\Prompts\PRM-006 - CSharp SOLID Design Mentor.md
+Knowledge\Learning\Programming\C#\SOLID

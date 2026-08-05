@@ -3,6 +3,85 @@
 ---
 
 ## Word / Phrase
+
+Grueling
+
+## Date Added
+
+05-AUG-2026
+
+## Pronunciation
+
+* **Simple pronunciation:** GROO-uh-ling (rhymes with *fooling*)
+* **IPA:** /ˈɡruː.ə.lɪŋ/
+* **Syllable breakdown:** GRUE - el - ing
+* **Stress:** Stress on the first syllable (**GRUE**)
+* **Common mistakes:** Do not pronounce the middle sound like "grew-ling" without the slight "uh" breath in between, though in fast speech it often sounds close to two syllables.
+
+## Part of Speech
+
+Adjective
+
+## Simple Meaning
+
+Extremely tiring, difficult, and demanding a lot of effort or endurance.
+
+## Context
+
+Commonly encountered in:
+
+* Sports and fitness
+* Business and work projects
+* Academic studies or exams
+* Books and journalism
+
+## Memory Hook
+
+Think of eating a cold, lumpy bowl of **gruel** (a thin oatmeal) after running a marathon. It feels harsh, tough, and requires pure endurance to get through. A **grueling** task drains all your energy.
+
+## Everyday Example
+
+After a grueling three-hour workout at the gym, she could barely walk up the stairs.
+
+## Professional Example
+
+The team worked through a grueling two-week audit to ensure all financial reports met regulatory standards.
+
+## Synonyms
+
+* **Common:** Exhausting, painful, tough
+* **Formal:** Demanding, arduous
+* **Advanced:** Punishing, grueling, grueling-taxing, grueling-rigorous
+
+## Antonyms
+
+* Easy
+* Effortless
+* Refreshing
+* Light
+
+## Word Family
+
+* **Gruel** (noun/verb): A thin, simple broth or porridge; or to exhaust/punish.
+
+## Etymology
+
+Originates from the old phrase *to take one's gruel*, which meant to accept punishment or severe treatment. Over time, it evolved to describe any task that inflicts that level of physical or mental punishment.
+
+## Common Mistakes
+
+Do not confuse **grueling** with **gruesome**.
+
+* *Gruesome* means shocking, horrific, or gory (e.g., a gruesome crime scene).
+* *Grueling* simply means exhausting or hard work (e.g., a grueling schedule).
+
+## Quick Recall
+
+If a task leaves you completely drained of energy and feeling punished, it was **grueling**.
+
+---
+
+## Word / Phrase
 ### Quixotic
 
 ## Date Added
